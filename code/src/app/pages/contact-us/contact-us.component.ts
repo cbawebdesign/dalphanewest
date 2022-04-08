@@ -15,22 +15,22 @@ export class ContactUsComponent implements OnInit {
 
   data : any = {
     title:"Contact us",
-    img:"04.png"
+    img:"logo.png"
   };
 
   List : any[] =[
     {
       title:"USA Office",
-      address:"Michael I. Days 3756 Preston Street Wichita, KS 67213 Phone:857-778-1265"
+      address:""
     },
-    {
-      title:"Australia Office",
-      address:"Michael I. Days 3756 Preston Street Wichita, KS 67213 Phone:857-778-1265"
-    },
-    {
-      title:"New zealand Office",
-      address:"Michael I. Days 3756 Preston Street Wichita, KS 67213 Phone:857-778-1265"
-    }
+    // {
+    //   title:"Australia Office",
+    //   address:""
+    // },
+    // {
+    //   title:"New zealand Office",
+    //   address:""
+    // }
 
   ]
 

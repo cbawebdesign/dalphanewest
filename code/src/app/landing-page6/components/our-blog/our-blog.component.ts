@@ -14,7 +14,7 @@ export class OurBlogComponent implements OnInit {
 
   List: any[] = [
     {
-      img: './assets/images/about-us/02.png',
+      img: './assets/images/about-us/03.png',
       name:  'HTML',
       time: 'September 26, 2019 ',
       title: 'Build Construction',

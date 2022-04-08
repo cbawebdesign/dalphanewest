@@ -24,14 +24,14 @@ export class PortfolioTwoComponent implements OnInit {
     {
       class : 'video',
       href: '#',
-      img: '03.png',
+      img: '01.png',
       title:'test Growth',
       type:'Video'
     },
     {
       class : 'html',
       href: '#',
-      img: '03.png',
+      img: '02.png',
       title:'Business ',
       type:'Html'
     },
@@ -45,35 +45,35 @@ export class PortfolioTwoComponent implements OnInit {
     {
       class : 'design',
       href: '#',
-      img: '08.png',
+      img: '03.png',
       title:'Business Growth',
-      type:'Design'
+      type:'Html'
     },
     {
       class : 'photography',
       href: '#',
-      img: '01.png',
+      img: '05.png',
       title:'Business Growth',
       type:'Photography'
     },
     {
       class : 'photography',
       href: '#',
-      img: '08.png',
+      img: '06.png',
       title:'Business Growth',
       type:'Design, Photography'
     },
     {
       class : 'design photography',
       href: '#',
-      img: '03.png',
+      img: '07.png',
       title:'Business Growth',
       type:'Design, Photography'
     },
     {
       class : 'design',
       href: '#',
-      img: '02.png',
+      img: '08.png',
       title:'Business Growth',
       type:'Design'
     }

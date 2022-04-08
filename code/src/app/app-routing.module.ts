@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'about-us', loadChildren: './about/about.module#AboutModule' },
   { path: 'services', loadChildren: './service/service.module#ServiceModule' },
   { path: 'pages', loadChildren: './pages/pages.module#PagesModule' },
+  {path: '', loadChildren: './landing-page5/landing-page5.module#LandingPage5Module'}
 
 ];
 

@@ -8,7 +8,7 @@ export class OurPartnerComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'TRUSTED BY OVER 26,000 FORWARD - THINKING COMPANIES ',
+    title: 'Environmental, Social, Governance ',
   };
 
   List : any[] = [

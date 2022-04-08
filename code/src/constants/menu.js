@@ -1,7 +1,7 @@
 const topMenuBarItems = [
   {
     href: '/landing-page5',
-    title: 'Home  ',
+    title: 'Home',
     isCurrent: true,
     submenu: [
       // {
@@ -21,7 +21,7 @@ const topMenuBarItems = [
       //   title: 'User Anaytics'
       // },
       {
-        href: '/landing-page6',
+        href: '/landing-page5',
         title: 'Home'
       },
       // {
@@ -50,157 +50,192 @@ const topMenuBarItems = [
       // }
     ]
   },
-  {
-    href: '/about-us',
-    title: 'About Us ',
-    submenu: [
-      {
-        href: '/about-us',
-        title: 'About Us'
-      },
+  // {
+  //   href: '/about-us',
+  //   title: 'About Us ',
+  //   submenu: [
+  //     {
+  //       href: '/about-us',
+  //       title: 'About Us'
+  //     },
    
       
-    ]
-  },
+  //   ]
+  // },
   {
-    href: '/services',
+    href: '/landing-page6',
+    // href: '',
+
     title: 'Strategy',
-    submenu : [
+    // submenu : [
    
-      {
-        href: '/services/data-management',
-        title: 'Strategy'
-      },
+    //   {
+    //     href: '/landing-page6',
+    //     title: 'Strategy'
+    //   },
     
-    ]
+    // ]
   },
   {
-    href: '/our-cases/portfolio-2-columns',
+    // href: '/our-cases/portfolio-2-columns',
+    href: '',
+
     title: 'Portfolio',
-    submenu: [
+    // submenu: [
      
-          {
-            href: '/our-cases/portfolio-2-columns',
-            title: 'Portfolio'
-          }
-          // {
-          //   href: '/our-cases/portfolio-3-columns',
-          //   title: 'Portfolio 3 Columns'
-          // },
-          // {
-          //   href: '/our-cases/portfolio-4-columns',
-          //   title: 'Portfolio 4 Columns'
-          // },
-          // {
-          //   href: '/our-cases/portfolio-5-columns',
-          //   title: 'Portfolio 5 Columns'
-          // },
-          // {
-          //   href: '/our-cases/portfolio-no-space',
-          //   title: 'Portfolio No Space'
-          // }
-        
+    //       {
+    //         href: '/our-cases/portfolio-2-columns',
+    //         title: 'Portfolio'
+    //       }
+    //       // {
+    //       //   href: '/our-cases/portfolio-3-columns',
+    //       //   title: 'Portfolio 3 Columns'
+    //       // },
+    //       // {
+    //       //   href: '/our-cases/portfolio-4-columns',
+    //       //   title: 'Portfolio 4 Columns'
+    //       // },
+    //       // {
+    //       //   href: '/our-cases/portfolio-5-columns',
+    //       //   title: 'Portfolio 5 Columns'
+    //       // },
+    //       // {
+    //       //   href: '/our-cases/portfolio-no-space',
+    //       //   title: 'Portfolio No Space'
+    //       // }
+    //     ,
       
-      // {
-      //   href: '/our-cases/masonry-2-portfolio',
-      //   title: 'Masonry 2 Portfolio'
-      // },
-      // {
-      //   href: '/our-cases/masonry-3-portfolio',
-      //   title: 'Masonry 3 Portfolio'
-      // },
-      // {
-      //   href: '/our-cases/masonry-no-space',
-      //   title: 'Masonry No Space'
-      // },
-      // {
-      //   href: '/our-cases/portfolio-details',
-      //   title: 'Portfolio Details'
-      // }
-        ]
+    //   {
+    //     href: '/our-cases/masonry-2-portfolio',
+    //     title: 'Masonry 2 Portfolio'
+    //   },
+    //   // {
+    //   //   href: '/our-cases/masonry-3-portfolio',
+    //   //   title: 'Masonry 3 Portfolio'
+    //   // },
+    //   // {
+    //   //   href: '/our-cases/masonry-no-space',
+    //   //   title: 'Masonry No Space'
+    //   // },
+    //   // {
+    //   //   href: '/our-cases/portfolio-details',
+    //   //   title: 'Portfolio Details'
+    //   // }
+    //     ]
   },
+  
   {
-    href: '/blog',
+    href: '/landing-page9',
     title: 'Our Team',
-    submenu: [
-      {
-        href: '/blog',
-        title: 'Blog'
-      },
-      {
-        href: '#blog-grid',
-        title: 'Blog Grid',
-        submenu: [
-          {
-            href: '/blog/blog-one-column-grid',
-            title: 'One Column Blog'
-          },
-          {
-            href: '/blog/blog-two-column-grid',
-            title: 'Two Column Blog'
-          },
-          {
-            href: '/blog/blog-three-column-grid',
-            title: 'Three Column Blog',
-          }
-        ]
-      },
-      {
-        href: '/blog/blog-right-sidebar-grid-one',
-        title: 'Right SideBar Grid',
-        submenu: [
-          {
-            href: '/blog/blog-right-sidebar-grid-one',
-            title: 'Right Sidebar Grid 1'
-          },
-          {
-            href: '/blog/blog-right-sidebar-grid-two',
-            title: 'Right Sidebar Grid 2'
-          }
-        ]
-      },
-      {
-        href: '/blog/blog-left-sidebar-grid-one',
-        title: 'Left SideBar Grid',
-        submenu: [
-          {
-            href: '/blog/blog-left-sidebar-grid-one',
-            title: 'Left Sidebar Grid 1'
-          },
-          {
-            href: '/blog/blog-left-sidebar-grid-two',
-            title: 'Left Sidebar Grid 1'
-          }
-        ]
-      },
-      {
-        href: '/blog/blog-details',
-        title: 'Blog Details'
-      }
-    ]
+    // submenu: [
+    //   {
+    //     href: '',
+    //     title: 'Our Team'
+    //   },
+    //   // {
+    //   //   href: '#blog-grid',
+    //   //   title: 'Blog Grid',
+    //   //   submenu: [
+    //   //     {
+    //   //       href: '/blog/blog-one-column-grid',
+    //   //       title: 'One Column Blog'
+    //   //     },
+    //   //     {
+    //   //       href: '/blog/blog-two-column-grid',
+    //   //       title: 'Two Column Blog'
+    //   //     },
+    //   //     {
+    //   //       href: '/blog/blog-three-column-grid',
+    //   //       title: 'Three Column Blog',
+    //   //     }
+    //   //   ]
+    //   // },
+    //   // {
+    //   //   href: '/blog/blog-right-sidebar-grid-one',
+    //   //   title: 'Right SideBar Grid',
+    //   //   submenu: [
+    //   //     {
+    //   //       href: '/blog/blog-right-sidebar-grid-one',
+    //   //       title: 'Right Sidebar Grid 1'
+    //   //     },
+    //   //     {
+    //   //       href: '/blog/blog-right-sidebar-grid-two',
+    //   //       title: 'Right Sidebar Grid 2'
+    //   //     }
+    //   //   ]
+    //   // },
+    //   // {
+    //   //   href: '/blog/blog-left-sidebar-grid-one',
+    //   //   title: 'Left SideBar Grid',
+    //   //   submenu: [
+    //   //     {
+    //   //       href: '/blog/blog-left-sidebar-grid-one',
+    //   //       title: 'Left Sidebar Grid 1'
+    //   //     },
+    //   //     {
+    //   //       href: '/blog/blog-left-sidebar-grid-two',
+    //   //       title: 'Left Sidebar Grid 1'
+    //   //     }
+    //   //   ]
+    //   // },
+    //   // {
+    //   //   href: '/blog/blog-details',
+    //   //   title: 'Blog Details'
+    //   // }
+    // ]
   },
   {
-    href: '/pages/our-team',
+    href: '/landing-page8',
     title: 'Responsibility',
-    submenu: [
-      {
-        href: '/pages/our-team',
-        title: 'Our Team'
-      },
-      {
-        href: '/pages/client',
-        title: 'Clients'
-      },
-      {
-        href: '/pages/career',
-        title: 'Careers',
-      },
-      {
-        href: '/pages/contact-us',
-        title: 'Contact Us',
-      }
-    ]
-  }
+    // submenu: [
+    //   {
+    //     href: '/pages/our-team',
+    //     title: 'Our Team'
+    //   },
+    //   {
+    //     href: '/pages/client',
+    //     title: 'Clients'
+    //   },
+    //   {
+    //     href: '/pages/career',
+    //     title: 'Careers',
+    //   },
+    //   {
+    //     href: '/pages/contact-us',
+    //     title: 'Contact Us',
+    //   }
+    // ]
+  },
+
+  {
+    href: '/pages/contact-us',
+    // href: '',
+
+    title: 'Contact Us',
+    // submenu : [
+   
+    //   {
+    //     href: '/pages/contact-us',
+    //     title: 'Contact Us'
+    //   },
+    
+    // ]
+  },
+
+  {
+    // href: '/landing-page6',
+    href: '',
+
+    title: 'Disclaimers',
+    // submenu : [
+   
+    //   {
+    //     href: '/landing-page6',
+    //     title: 'Disclaimers'
+    //   },
+    
+    // ]
+  },
 ];
 
 const servicesMenu =  [

@@ -14,12 +14,12 @@ export class AboutUsComponent implements OnInit {
   
   List: any[] = [
     {
-      title: 'Smart Cities',
+      title: 'Next Gen Networks',
       subtitle: 'Digital Alpha Advisors LLC information information information information information information',
       image: './assets/images/IOT.jpg'
     },
     {
-      title: 'Next Gen Networks',
+      title: 'Cloud',
       subtitle: 'Digital Alpha Advisors LLC information information information information information information',
       image: './assets/images/IOT.jpg'
     },
