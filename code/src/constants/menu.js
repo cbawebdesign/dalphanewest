@@ -1,55 +1,55 @@
 const topMenuBarItems = [
-  {
-    href: '/landing-page5',
-    title: 'Home',
-    isCurrent: true,
-    submenu: [
-      // {
-      //   href: '/landing-page1',
-      //   title: 'Home One'
-      // },
-      // {
-      //   href: '/landing-page2',
-      //   title: 'Home Two'
-      // },
-      // // {
-      //   href: '/landing-page3',
-      //   title: 'Home Three'
-      // },
-      // {
-      //   href: '/landing-page4',
-      //   title: 'User Anaytics'
-      // },
-      {
-        href: '/landing-page5',
-        title: 'Home'
-      },
-      // {
-      //   href: '/landing-page6',
-      //   title: 'Predective Analytics'
-      // },
-      // {
-      //   href: '/landing-page7',
-      //   title: 'Sentiment Analysis'
-      // },
-      // {
-      //   href: '/landing-page8',
-      //   title: 'User Behaviour Analysis'
-      // },
-      // {
-      //   href: '/landing-page9',
-      //   title: 'Data Scientist Profile'
-      // },
-      // {
-      //   href: '/landing-page10',
-      //   title: 'Data Visualization Service'
-      // },
-      // {
-      //   href: '/landing-page11',
-      //   title: 'Analytics In Marketing'
-      // }
-    ]
-  },
+  // {
+  //   href: '/landing-page5',
+  //   // title: 'Home',
+  //   isCurrent: true,
+  //   submenu: [
+  //     // {
+  //     //   href: '/landing-page1',
+  //     //   title: 'Home One'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page2',
+  //     //   title: 'Home Two'
+  //     // },
+  //     // // {
+  //     //   href: '/landing-page3',
+  //     //   title: 'Home Three'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page4',
+  //     //   title: 'User Anaytics'
+  //     // },
+  //     {
+  //       // href: '/landing-page5',
+  //       // title: 'Home'
+  //     },
+  //     // {
+  //     //   href: '/landing-page6',
+  //     //   title: 'Predective Analytics'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page7',
+  //     //   title: 'Sentiment Analysis'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page8',
+  //     //   title: 'User Behaviour Analysis'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page9',
+  //     //   title: 'Data Scientist Profile'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page10',
+  //     //   title: 'Data Visualization Service'
+  //     // },
+  //     // {
+  //     //   href: '/landing-page11',
+  //     //   title: 'Analytics In Marketing'
+  //     // }
+  //   ]
+  // },
   // {
   //   href: '/about-us',
   //   title: 'About Us ',
@@ -63,7 +63,7 @@ const topMenuBarItems = [
   //   ]
   // },
   {
-    href: '/landing-page6',
+    href: '/strategy',
     // href: '',
 
     title: 'Strategy',
@@ -76,11 +76,11 @@ const topMenuBarItems = [
     
     // ]
   },
-  {
-    // href: '/our-cases/portfolio-2-columns',
-    href: '',
+  // {
+  //   href: '/our-cases/portfolio-2-columns',
+  //   // href: '',
 
-    title: 'Portfolio',
+  //   title: 'Portfolio',
     // submenu: [
      
     //       {
@@ -122,10 +122,10 @@ const topMenuBarItems = [
     //   //   title: 'Portfolio Details'
     //   // }
     //     ]
-  },
+  // },
   
   {
-    href: '/landing-page9',
+    href: '/ourteam',
     title: 'Our Team',
     // submenu: [
     //   {
@@ -185,7 +185,11 @@ const topMenuBarItems = [
     // ]
   },
   {
-    href: '/landing-page8',
+            href: '/blog/blog-two-column-grid',
+            title: 'Portfolio'
+          },
+  {
+    href: '/responsibility',
     title: 'Responsibility',
     // submenu: [
     //   {

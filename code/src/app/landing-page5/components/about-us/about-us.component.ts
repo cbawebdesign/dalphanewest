@@ -16,17 +16,17 @@ export class AboutUsComponent implements OnInit {
     {
       title: 'Next Gen Networks',
       subtitle: 'Digital Alpha Advisors LLC information information information information information information',
-      image: './assets/images/IOT.jpg'
+      image: './assets/images/image.jpg'
     },
     {
       title: 'Cloud',
       subtitle: 'Digital Alpha Advisors LLC information information information information information information',
-      image: './assets/images/IOT.jpg'
+      image: './assets/images/image.jpg'
     },
     {
       title: 'Internet of Things',
       subtitle: 'Digital Alpha Advisors LLC information information information information information information',
-      image: './assets/images/IOT.jpg'
+      image: './assets/images/image.jpg'
     }
   ];
 

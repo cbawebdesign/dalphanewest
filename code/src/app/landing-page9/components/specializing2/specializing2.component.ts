@@ -25,6 +25,13 @@ export class Specializing2Component implements OnInit {
     
     },
     {
+      title: 'Karl Meyer',
+      subtitle:'Managing Director, Head of Portfolio Operations Group',
+
+      desc: 'Mr. Meyer has been a business development and operational leader in Silicon Valley at both growth stage and large companies for over two decades, during which he and Mr. Shrotri have worked together twice before.  At Incorta, Mr. Meyer started the business development function and also led both the HR and Finance functions. The business development function sourced over 70 percent of Incorta’s new revenue through 2021.  Prior to Incorta, Mr. Meyer led the Enterprise Business Development function at Kleiner Perkins as an Operating Partner.  Mr. Meyer also has experience at leading Silicon Valley firms, as he drove corporate initiatives at both HP and Cisco. Mr. Meyer drove the analytics and cloud strategies at HP, which were the company’s two fastest growing businesses. He also was a key team member in driving the cloud, cybersecurity, and emerging markets strategy at Cisco.  Earlier in Mr. Meyer’s career, he was in a business development role at two high growth firms. Linuxcare was funded by Kleiner Perkins and acquired by Computer Associates, now part of Broadcom. Mr. Meyer also led the business development function at XDegrees, which was acquired by Microsoft.  Mr. Meyer is a cum laude Economics graduate of Pomona College and studied abroad at University College, Oxford.',
+      // href: '#'
+    },
+    {
       title: 'Andy Alcon, CPA',
       subtitle:'Chief Financial Officer',
 
@@ -38,13 +45,7 @@ export class Specializing2Component implements OnInit {
       desc: 'Mr de Laszlo has extensive experience raising capital for some of the world’s leading investment houses.  Prior to joining Digital Alpha he was the Founding partner of Prosperitas Capital, a Private Investment Office that also advised a number of top tier fund managers in a range of asset classes including Private Equity, Infrastructure and Credit in the United States, Europe, Middle East and South America.  Mr de Laszlo was previously The Head of the Middle East for bfinance, the asset advisory firm where he generated a number of $1B+ mandates for clients including Sovereign Wealth Funds, Endowments and Family Offices.  Mr de Laszlo started his finance career at Salford, an emerging markets Private Equity Fund focussed on acquiring controlling stakes.  Mr de Laszlo previously worked in the technology sector as Head of Europe for Sonic Foundry, a streaming media company.  Studied Business management and Economics At University of Tennessee.',
 
     },
-    {
-      title: 'Karl Meyer',
-      subtitle:'Managing Director, Head of Portfolio Operations Group',
 
-      desc: 'Mr. Meyer has been a business development and operational leader in Silicon Valley at both growth stage and large companies for over two decades, during which he and Mr. Shrotri have worked together twice before.  At Incorta, Mr. Meyer started the business development function and also led both the HR and Finance functions. The business development function sourced over 70 percent of Incorta’s new revenue through 2021.  Prior to Incorta, Mr. Meyer led the Enterprise Business Development function at Kleiner Perkins as an Operating Partner.  Mr. Meyer also has experience at leading Silicon Valley firms, as he drove corporate initiatives at both HP and Cisco. Mr. Meyer drove the analytics and cloud strategies at HP, which were the company’s two fastest growing businesses. He also was a key team member in driving the cloud, cybersecurity, and emerging markets strategy at Cisco.  Earlier in Mr. Meyer’s career, he was in a business development role at two high growth firms. Linuxcare was funded by Kleiner Perkins and acquired by Computer Associates, now part of Broadcom. Mr. Meyer also led the business development function at XDegrees, which was acquired by Microsoft.  Mr. Meyer is a cum laude Economics graduate of Pomona College and studied abroad at University College, Oxford.',
-      // href: '#'
-    },
     {
       title: 'Dave Ward',
       subtitle:'Operating Partner',
