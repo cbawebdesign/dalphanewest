@@ -17,10 +17,13 @@ export class BlogTwoColumnComponent implements OnInit {
 
   data : any = {
     title:"Our Portfolio",
+    img:"logo.png"
+
   };
   grid : string = "6";
 
   List: any[] = [
+    
     {
       img: './assets/images/partners/g.jpg',
       name:  'Google Station',
@@ -28,61 +31,83 @@ export class BlogTwoColumnComponent implements OnInit {
       title: 'Press',
       desc: ' Google Station announcement at Mobile World Congress Barcelona',
     },
+
     {
       img: './assets/images/partners/p.png',
       name:  'Packet Fabric',
       // time: 'September 26, 2019 ',
       title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
-    },
-    {
-      img: './assets/images/partners/9.png',
-      name:  'Qwilt',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing',
-    },
-    {
-      img: './assets/images/partners/4.png',
-      name:  'Jet Stream Software',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
-    },
-    {
-      img: './assets/images/partners/5.png',
-      name:  'SHARE CARE',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
-    },
-    {
-      img: './assets/images/partners/6.png',
-      name:  'CONNEXIN',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
     {
       img: './assets/images/partners/7.png',
       name:  'PRYON',
       // time: 'September 26, 2019 ',
       title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
     {
-      img: './assets/images/partners/8.png',
-      name:  'QUILT',
+      img: './assets/images/partners/10.png',
+      name:  'Working Group Two',
       // time: 'September 26, 2019 ',
       title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
     {
-      img: './assets/images/partners/05.png',
-      name:  'CSS',
+      img: './assets/images/partners/24.png',
+      name:  'We Link',
       // time: 'September 26, 2019 ',
       title: 'Press',
-      desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing',
+    },
+    {
+      img: './assets/images/partners/cloud.jpg',
+      name:  'Cloudian',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      img: './assets/images/partners/5.png',
+      name:  'SHARE CARE',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      img: './assets/images/partners/6.png',
+      name:  'CONNEXIN',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    // {
+    //   img: './assets/images/partners/7.png',
+    //   name:  'PRYON',
+    //   // time: 'September 26, 2019 ',
+    //   title: 'Press',
+    //   desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    // },
+    // {
+    //   img: './assets/images/partners/10.png',
+    //   name:  'Working Group Two',
+    //   // time: 'September 26, 2019 ',
+    //   title: 'Press',
+    //   desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    // },
+    {
+      img: './assets/images/partners/jet.png',
+      name:  'JetStream Software',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      img: './assets/images/partners/BT1.jpg',
+      name:  'British Telecom',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     }
   ];
   
