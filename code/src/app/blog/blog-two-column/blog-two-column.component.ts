@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {PluginsService} from "../../xamin/plugins.service";
 import { topMenuBarItems } from '../../../constants/menu';
+import { APP_BASE_HREF } from '@angular/common';
 
 @Component({
   selector: 'app-blog-two-column',
@@ -23,7 +24,51 @@ export class BlogTwoColumnComponent implements OnInit {
   grid : string = "6";
 
   List: any[] = [
-    
+
+    {
+      img: './assets/images/partners/25.png',
+      name:  'Unitas Global',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      url: "https://www.businesswire.com/news/home/20220418005166/en/Digital-Alpha-Completes-the-Asset-Acquisition-of-Unitas-Globals-Connectivity-Business-a-Next-Generation-Networking-Platform"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      img: './assets/images/partners/24.png',
+      name:  'Welink',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    // {
+    //   img: './assets/images/partners/1.png',
+    //   name:  'British Telecom',
+    //   // time: 'September 26, 2019 ',
+    //   title: 'Press',
+    //   // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    // },
+    {
+      img: './assets/images/partners/20.png',
+      name:  'SHARE CARE',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      img: './assets/images/partners/21.png',
+      name:  'SHARE CARE',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      img: './assets/images/partners/22.png',
+      name:  'SHARE CARE',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+
     {
       img: './assets/images/partners/g.jpg',
       name:  'Google Station',
@@ -53,13 +98,7 @@ export class BlogTwoColumnComponent implements OnInit {
       title: 'Press',
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
-    {
-      img: './assets/images/partners/24.png',
-      name:  'We Link',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing',
-    },
+
     {
       img: './assets/images/partners/cloud.jpg',
       name:  'Cloudian',
@@ -67,13 +106,8 @@ export class BlogTwoColumnComponent implements OnInit {
       title: 'Press',
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
-    {
-      img: './assets/images/partners/5.png',
-      name:  'SHARE CARE',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
-    },
+   
+    
     {
       img: './assets/images/partners/6.png',
       name:  'CONNEXIN',
@@ -96,19 +130,13 @@ export class BlogTwoColumnComponent implements OnInit {
     //   desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     // },
     {
-      img: './assets/images/partners/jet.png',
+      img: './assets/images/partners/11.png',
       name:  'JetStream Software',
       // time: 'September 26, 2019 ',
       title: 'Press',
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
-    {
-      img: './assets/images/partners/BT1.jpg',
-      name:  'British Telecom',
-      // time: 'September 26, 2019 ',
-      title: 'Press',
-      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
-    }
+
   ];
   
   constructor(private plugins: PluginsService) { }

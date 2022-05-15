@@ -19,10 +19,7 @@ export class ContactUsComponent implements OnInit {
   };
 
   List : any[] =[
-    {
-      title:"USA Office",
-      address:""
-    },
+ 
     // {
     //   title:"Australia Office",
     //   address:""

@@ -1,8 +1,9 @@
 const topMenuBarItems = [
   // {
   //   href: '/landing-page5',
-  //   // title: 'Home',
+  //   title: 'Home',
   //   isCurrent: true,
+  // },
   //   submenu: [
   //     // {
   //     //   href: '/landing-page1',
@@ -62,11 +63,12 @@ const topMenuBarItems = [
       
   //   ]
   // },
+
   {
-    href: '/strategy',
+    href: '/home',
     // href: '',
 
-    title: 'Strategy',
+    // title: 'Home',
     // submenu : [
    
     //   {
@@ -76,6 +78,39 @@ const topMenuBarItems = [
     
     // ]
   },
+  {
+    href: '/strategy',
+   title: 'strategy'
+  },
+  {
+    href: '/portfolio',
+    // href: '',
+
+    title: 'Portfolio',
+    // submenu : [
+   
+    //   {
+    //     href: '/landing-page6',
+    //     title: 'Strategy'
+    //   },
+    
+    // ]
+  },
+
+  // {
+  //   href: '/home',
+  //   // href: '',
+
+  //   title: 'Home',
+  //   // submenu : [
+   
+  //   //   {
+  //   //     href: '/landing-page6',
+  //   //     title: 'Strategy'
+  //   //   },
+    
+  //   // ]
+  // },
   // {
   //   href: '/our-cases/portfolio-2-columns',
   //   // href: '',
@@ -184,10 +219,7 @@ const topMenuBarItems = [
     //   // }
     // ]
   },
-  {
-            href: '/blog/blog-two-column-grid',
-            title: 'Portfolio'
-          },
+
   {
     href: '/responsibility',
     title: 'Responsibility',

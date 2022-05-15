@@ -17,28 +17,27 @@ export class SolutionsComponent implements OnInit {
       id: 'tab-one-platform',
       title: 'Impact ',
       desc: [
-        '',
-        '',
+        'ESG has been a priority for Digital Alpha since inception, as Digital Infrastructure is intrinsically green, provides social benefit, and fosters a more inclusive society.'
       ],
       active: true
     },
-    {
-      id: 'tab-time-value',
-      title: 'Time value',
-      desc: [
-        '',
-        '',
-      ]
-    },
-    {
-      id: 'tab-smart-work',
-      title: 'Smart work',
-      desc: [
-        '',
-        '',
-        '',
-      ]
-    }
+    // {
+    //   id: 'tab-time-value',
+    //   title: 'Time value',
+    //   desc: [
+    //     '',
+    //     '',
+    //   ]
+    // },
+    // {
+    //   id: 'tab-smart-work',
+    //   title: 'Smart work',
+    //   desc: [
+    //     '',
+    //     '',
+    //     '',
+    //   ]
+    // }
   ]
   constructor() { }
 

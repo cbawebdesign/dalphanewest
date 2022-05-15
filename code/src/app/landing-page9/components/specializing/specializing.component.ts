@@ -8,7 +8,7 @@ export class SpecializingComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'mb-0 text-center text-lg-left border-right',
-    subTitle: 'Specializing in'
+    subTitle: 'Driving Alpha'
   };
   
   constructor() { }

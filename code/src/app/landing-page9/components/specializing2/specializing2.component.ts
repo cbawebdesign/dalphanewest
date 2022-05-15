@@ -97,13 +97,7 @@ export class Specializing2Component implements OnInit {
       desc: 'Mr. Vidyarthi has 7 years of experience working at leading private equity and investment banking firms.  Prior to joining Digital Alpha, Mr. Vidyarthi was an investment professional at Caligan Partners, an activist investment firm that spun out of The Carlyle Group, where he evaluated control-oriented public equity investments and take-privates of companies in the technology, media, and telecommunications sectors.  Prior to joining Caligan Partners, he was a Summer Associate at Starboard Value, an activist hedge fund based in New York.  Prior to Starboard Value, he was a private equity associate at KKR, where he focused on investments in the energy, power, and telecommunications infrastructure sectors, including investments in fiber, tower, and datacenter assets.  Prior to KKR, he was an investment banking analyst at Goldman Sachs, where he worked on M&A and financing transactions in the industrials sector.  He began his career as an analyst in sales & trading at Barclays Capital.  Mr. Vidyarthi is an honors graduate from New York University’s Stern School of Business, where he double majored in Finance and Mathematics, and completed coursework in Finance and Accounting at The Wharton School.',
       href: '#'
     },
-    {
-      title: 'Carol Lim',
-      subtitle:'Associate',
-
-    desc: 'Ms. Lim has experience in complex buy-side transactions and strategic evaluation.  Prior to joining Digital Alpha, she was an Associate at Liberty Media, a media and communications conglomerate, where she evaluated investment opportunities across the Liberty family and served as a portfolio company board observer.  She began her career as an Investment Banking Analyst in the Mergers and Acquisitions group at Bank of America Merrill Lynch.  Ms. Lim graduated summa cum laude with a degree in economics from the University of California, Los Angeles.',
-      href: '#'
-    },
+ 
     {
       title: 'Rahim Ladak ',
       subtitle:'Associate      ',
@@ -111,13 +105,7 @@ export class Specializing2Component implements OnInit {
       desc: 'Mr. Ladak has 4 years of experience working at leading private equity and investment banking firms.  Prior to joining Digital Alpha, Mr. Ladak was an Associate at DW Healthcare Partners, a healthcare private equity firm, where he evaluated control-oriented investments of companies in the healthcare space.  Prior to DWHP, he was an Investment Banking Analyst at Credit Suisse, where he worked on M&A and financing transactions.  Mr. Ladak graduated with an Honors in Business Administration with distinction from Western University’s Ivey School of Business.',
       href: '#'
     },
-    {
-      title: 'Anais Benhassaine      ',
-      subtitle:'Associate      ',
 
-      desc: 'Ms Benhassaine is awaiting admission to the NY bar and is a European trained lawyer (UK, France). She has structured, negotiated, and executed transactions with leading Silicon Valley enterprises for global deployments with Digital Alpha.  Prior to that, she worked in corporate law in London.  She holds a LL.M in Corporate, Banking and Finance at Fordham Law School, New York.  Ms. Benhassaine has a MSc in Tax Law and Finance from EDHEC Business School, Paris.  She has received a Master of Corporate Law (in exchange in the United Kingdom), and a Bachelor of Law Degree from Jean Moulin University, Lyon, France.',
-      href: '#'
-    },
     {
       title: 'Jesús R. Vega',
       subtitle:'CPA Controller, Director of Finance',

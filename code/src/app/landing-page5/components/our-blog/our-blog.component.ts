@@ -15,28 +15,28 @@ export class OurBlogComponent implements OnInit {
 
   List: any[] = [
     {
-      img: './assets/images/about-us/02.png',
+      img: './assets/images/about-us/1.png',
       name:  'HTML',
       time: 'September 26, 2019 ',
       title: '',
       desc: '“',
     },
     {
-      img: './assets/images/about-us/03.png',
+      img: './assets/images/about-us/25.png',
       name:  'Design',
       time: 'September 26, 2019 ',
       title: '',
       desc: '',
     },
     {
-      img: './assets/images/about-us/04.png',
+      img: './assets/images/about-us/9.png',
       name:  'HTML',
       time: 'September 26, 2019 ',
       title: '',
       desc: '',
     },
     {
-      img: './assets/images/about-us/05.png',
+      img: './assets/images/about-us/27.png',
       name:  'CSS',
       time: 'September 26, 2019 ',
       title: '',

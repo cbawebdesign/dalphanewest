@@ -15,17 +15,18 @@ export class AboutUsComponent implements OnInit {
   List: any[] = [
     {
       title: 'Next Gen Networks',
-      subtitle: 'Digital Alpha Advisors LLC information information information information information information',
+      subtitle: 'Next Generation Broadband Networks, delivering programmability, automation, and new services to businesses and governments worldwide.',
       image: './assets/images/image.jpg'
     },
     {
       title: 'Cloud',
-      subtitle: 'Digital Alpha Advisors LLC information information information information information information',
+      subtitle: 'Cloud based data management platforms focused on security, privacy, and sovereignty delivered through innovative core and edge infrastructure.                                                   ',
+      
       image: './assets/images/image.jpg'
     },
     {
       title: 'Internet of Things',
-      subtitle: 'Digital Alpha Advisors LLC information information information information information information',
+      subtitle: 'IoT platforms for urban infrastructure and smart city solutions partnering closely with utilities and municipalities worldwide. ',
       image: './assets/images/image.jpg'
     }
   ];

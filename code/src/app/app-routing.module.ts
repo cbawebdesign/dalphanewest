@@ -6,14 +6,14 @@ const routes: Routes = [
   { path: 'landing-page1', loadChildren: './landing-page1/landing-page1.module#LandingPage1Module' },
   { path: 'landing-page2', loadChildren: './landing-page2/landing-page2.module#LandingPage2Module' },
   { path: 'landing-page3', loadChildren: './landing-page3/landing-page3.module#LandingPage3Module' },
-  { path: 'landing-page4', loadChildren: './landing-page4/landing-page4.module#LandingPage4Module' },
-  { path: 'landing-page5', loadChildren: './landing-page5/landing-page5.module#LandingPage5Module' },
+  { path: 'strategy', loadChildren: './landing-page4/landing-page4.module#LandingPage4Module' },
+  { path: 'home', loadChildren: './landing-page5/landing-page5.module#LandingPage5Module' },
   // { path: 'landing-page6', loadChildren: './landing-page6/landing-page6.module#LandingPage6Module' },
   // { path: 'new', loadChildren: './landing-page7/landing-page7.module#LandingPage7Module' },
 
   // { path: 'landing-page6', loadChildren: './landing-page6/landing-page6.module#LandingPage6Module' },
 
-  { path: 'strategy', loadChildren: './landing-page6/landing-page6.module#LandingPage6Module' },
+  { path: 'portfolio', loadChildren: './landing-page6/landing-page6.module#LandingPage6Module' },
   { path: 'responsibility', loadChildren: './landing-page8/landing-page8.module#LandingPage8Module' },
 
 

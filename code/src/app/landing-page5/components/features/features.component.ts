@@ -15,22 +15,21 @@ export class FeaturesComponent implements OnInit {
 
   List : any[] = [
     {
-      img:"1.jpg",
+      image: './assets/images/testimonials/logo.png',
       name:"Rick Shrotri",
       designation:"Founder and Managing Partner",
       desc:"Mr. Shrotri has been a technology and telecommunications investor for over two decades, managing industry shaping investments."
     },
     {
-      img:"2.jpg",
       name:"Vasa Babic",
       designation:"Partner",
       desc:"Mr. Babic has partnered with Mr. Shrotri for 5+ years in developing the Digital Alpha concept"
     },
     {
-      img:"3.jpg",
-      name:"Andy Alcon",
-      designation:"CFO",
-      desc:"Mr. Alcon has been CFO for Digital Alpha since inception."
+      image: './assets/images/logo.png',
+      name:"Karl Meyer",
+      designation:"Managing Director, Head of Business Development and Portfolio Operations Group",
+      desc:"Mr. Meyer has been a business development and operational leader in Silicon Valley at both growth stage and large companies for over two decades, during which he and Mr. Shrotri have worked together twice before."
     }
   ];
   constructor() { }

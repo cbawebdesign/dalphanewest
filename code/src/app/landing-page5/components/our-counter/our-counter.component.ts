@@ -10,25 +10,21 @@ export class OurCounterComponent implements OnInit {
 
   List: any[] = [
     {
-      number: 800,
-      title: 'Million AUM',
+      number: 1.5,
+      title: '+ Billion AUM',
       image: './assets/images/logo.png'
     },
     {
-      number: 26,
-      title: 'Successful Exits',
-      image: './assets/images/logo.png'
-    },
-    {
-      number: 32,
+      number: 15,
       title: 'Portfolio Companies',
       image: './assets/images/logo.png'
     },
     {
-      number: 124,
-      title: 'Limited Partners',
+      number: 6,
+      title: 'Minority Founder Investments',
       image: './assets/images/logo.png'
-    }
+    },
+
   ];
 
   constructor() { }

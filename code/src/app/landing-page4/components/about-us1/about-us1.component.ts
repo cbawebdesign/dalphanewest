@@ -8,9 +8,9 @@ export class AboutUs1Component implements OnInit {
 
 titleSectionProp: any = {
     class: 'text-left',
-    title: 'LETS GET STARTED ',
-    subTitle: 'Are you ready for a better, more productive business?',
-    description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.'
+    title: 'Digital Alpha Advisors LLC ',
+    subTitle: 'Our Strategy',
+    description: 'A pioneering approach to enabling digital infrastructure.'
   };
 
   constructor() { }

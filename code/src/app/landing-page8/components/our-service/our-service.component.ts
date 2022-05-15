@@ -32,11 +32,12 @@ export class OurServiceComponent implements OnInit {
       bg_img: './assets/images/fancybox/bg-7-2.png',
     },
     {
-      title: 'Content',
-      desc: 'Digital Alpha Content',
-      image: './assets/images/fancybox/6.png',
+      title: 'Welink',
+      desc: 'Welink provides powerful connectivity to address the digital divide in cities accross America.',
+      image: './assets/images/fancybox/8.png',
       bg_img: './assets/images/fancybox/bg-7-2.png',
-    }
+    },
+ 
 
   ];
   constructor() { }

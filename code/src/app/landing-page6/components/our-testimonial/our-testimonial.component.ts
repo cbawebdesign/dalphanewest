@@ -14,27 +14,201 @@ export class OurTestimonialComponent implements OnInit {
   };
 
   navigation: boolean = true;
-  List : any[] = [
+  List: any[] = [
+    // {
+    //   title: 'UK Cloud',
+    //   subtitle: '.',
+    //   image: './assets/images/partners/1.png'
+    // },
+    // {
+    //   title: 'JetStream',
+    //   subtitle:"https://www.tradingview.com/chart/6AfSgpbI/?symbol=CME_MINI%3ANQ1%21",
+    //   image: './assets/images/partners/3.png'
+    // },
+    // {
+    //   title: 'British Telecom',
+    //   subtitle: '.',
+    //   image: './assets/images/partners/4.png'
+    // },
+    // {
+    //   title: 'Working Group Two',
+    //   subtitle: '.',
+    //   image: './assets/images/partners/2.png'
+    // },
+    
     {
-      img:"1.jpg",
-      name:"Jack White",
-      designation:"CEO",
-      desc:"Richard McClintock, a Latin professor at Hampden-Sydney consectetur adip isicing elit, sed dolore magna aliqua hampden. Latin professor at Hampden-Sydney consectetur."
+      image: './assets/images/partners/25.png',
+      name:  'Unitas Global',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      info:'Digital Alpha completes the asset acquisition of Unitas Global connectivity business',
+      subtitle: "https://www.businesswire.com/news/home/20220418005166/en/Digital-Alpha-Completes-the-Asset-Acquisition-of-Unitas-Globals-Connectivity-Business-a-Next-Generation-Networking-Platform"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
     {
-      img:"2.jpg",
-      name:"Walhan Bobe",
-      designation:"Business Advisor",
-      desc:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium incididunt ut labore et dolore Sed ut perspiciatis error. Perspiciatis unde omnis iste."
+      image: './assets/images/partners/24.png',
+      name:  'Welink',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      info: 'WeLink secures 185 m Million funding from Digital Alpha to revolutionize the future Ultra High Speed Wireless Broadband',
+      subtitle: 'https://www.businesswire.com/news/home/20210107005328/en/WeLink-Secures-185-Million-Funding-from-Digital-Alpha-to-Revolutionize-the-Future-of-Ultra-High-Speed-Wireless-Broadband'
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    // {
+    //   img: './assets/images/partners/1.png',
+    //   name:  'British Telecom',
+    //   // time: 'September 26, 2019 ',
+    //   title: 'Press',
+    //   // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    // },
+    {
+      image: './assets/images/partners/1.png',
+      name:  'SHARE CARE',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Cisco, Qwilt and Digital Alpha Define the Future of Content Delivery with New Open Caching Solution for Service Providers',
+      subtitle: "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2020/m10/cisco-qwilt-and-digital-alpha-define-the-future-of-content-delivery-with-new-open-caching-solution-for-service-providers.html"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
     {
-      img:"3.jpg",
-      name:"Mark McManus",
-      designation:"COO",
-      desc:"“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.”"
-    }
-  ];
+      image: './assets/images/partners/27.png',
+      name:  'SHARE CARE',
+      info: 'Cisco, Qwilt and Digital Alpha bring open caching to Brazil via Tim partnership',
+      subtitle: "https://www.fiercevideo.com/tech/cisco-qwilt-and-digital-alpha-bring-open-caching-to-brazil-via-tim-partnership",
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
 
+
+    {
+      image: './assets/images/partners/26.png',
+      name:  'SHARE CARE',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Cisco, Qwilt and Digital Alpha launching cdn solution to improve streaming experience for its customers in Argentina',
+      info2: 'Sharecare and Falcon Capital Acquisition Corp. Reach Agreement to Combine, Creating Publicly Traded Digital Health Company',
+      subtitle: "https://www.qwilt.com/telecom-argentina-launching-new-cisco-qwilt-and-digital-alpha-cdn-solution-to-improve-streaming-experience-for-its-customers-in-argentina/",
+      
+      subtitle2:"https://www.prnewswire.com/news-releases/sharecare-and-falcon-capital-acquisition-corp-reach-agreement-to-combine-creating-publicly-traded-digital-health-company-301227530.html"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      image: './assets/images/partners/9.png',
+      name:  'SHARE CARE',
+      info: 'Cisco, Qwilt and Digital Alpha Define the Future of Content Delivery with New Open Caching Solution for Service Providers',
+      info2:'Qwilt Content Delivery Sharing for Publishers Transforms Media Delivery',
+      subtitle: "https://www.qwilt.com/cisco-qwilt-and-digital-alpha-define-the-future-of-content-delivery-with-new-open-caching-solution-for-service-providers/",
+      subtitle2:"https://www.qwilt.com/qwilt-content-delivery-sharing-for-publishers-transforms-media-delivery/",
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      image: './assets/images/partners/g.jpg',
+      name:  'Google Station',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      desc: ' Google Station announcement at Mobile World Congress Barcelona',
+      info: 'Google Station announcement at Mobile World Congress Barcelona',
+      subtitle: "https://www.qwilt.com/telecom-argentina-launching-new-cisco-qwilt-and-digital-alpha-cdn-solution-to-improve-streaming-experience-for-its-customers-in-argentina/",
+    },
+
+    {
+      image: './assets/images/partners/p.png',
+      name:  'Packet Fabric',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Chris Dedicoat joins PacketFabric Board of Directors as chairman',
+      info2:'PacketFabric names former Cisco Executive Dave Ward as its new CEO',
+      subtitle: "https://www.lightreading.com/services/chris-dedicoat-joins-packetfabric-board-of-directors-as-chairman/d/d-id/762784?/",
+      subtitle2: "https://www.fiercetelecom.com/telecom/packetfabric-names-former-cisco-executive-ward-as-its-new-ceo"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      image: './assets/images/partners/7.png',
+      name:  'PRYON',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Pyron an AI Technology company announces Series A 20M Equity funding round',
+      subtitle: "https://pryon.com/2019/06/11/pryon-announces-20m-equity-round/",
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      image: './assets/images/partners/10.png',
+      name:  'Working Group Two',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Telenor and Cisco Strengthen Partnership to Support Critical Infrastructure Transitions for Telcos Scale Joint Venture WG2 for Global Operations',
+      info2: 'Norways Telenor Seeks Salvation in the Cloud with spinout WG2',
+      
+      subtitle: "https://www.globenewswire.com/news-release/2020/06/25/2053226/0/en/Telenor-and-Cisco-Strengthen-Partnership-to-Support-Critical-Infrastructure-Transitions-for-Telcos-Scale-Joint-Venture-WG2-for-Global-Operations.html",
+      subtitle2: "https://www.reuters.com/article/idUSKCN1GD5JA"
+
+      
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+
+    {
+      image: './assets/images/partners/cloud.jpg',
+      name:  'Cloudian',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Cloudian secures $125m Joint Venture Commitment with Digital Alpha',
+      info2: 'Cisco & Cloudian Collaborate to Create Scale-Out Enterprise Object Storage Solutions',
+      subtitle: "https://www.globenewswire.com/news-release/2018/02/28/1401078/0/en/Cloudian-Secures-Funding-Commitment-of-125-Million-in-Joint-Venture-with-Digital-Alpha-to-Power-Enterprise-Object-Storage-Growth.html",
+      subtitle2:"https://cloudian.com/blog/cisco-cloudian-create-scale-out-object-storage-solutions/"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    {
+      image: './assets/images/partners/5.png',
+      name:  'Sharecare',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info: 'Sharecare and Digital Alpha announce a strategic collaboration',
+      info2: 'Sharecare and Falcon Capital Acquisition Corp. Reach Agreement to Combine, Creating Publicly Traded Digital Health Company',
+
+      subtitle: "https://www.prnewswire.com/news-releases/sharecare-and-digital-alpha-announce-a-strategic-collaboration-to-strengthen-the-nexus-of-healthcare-and-digital-infrastructure-across-america-301231713.html",
+      subtitle2: "https://www.prnewswire.com/news-releases/sharecare-and-falcon-capital-acquisition-corp-reach-agreement-to-combine-creating-publicly-traded-digital-health-company-301227530.html"
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+   
+    
+    {
+      image: './assets/images/partners/6.png',
+      name:  'CONNEXIN',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      info: 'Smart Cities Race Steps up a Gear with £10m Connexin Investment',
+      subtitle: "https://venturebeat.com/2017/10/15/smart-cities-race-steps-up-a-gear-with-10m-connexin-investment/",
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+    // {
+    //   img: './assets/images/partners/7.png',
+    //   name:  'PRYON',
+    //   // time: 'September 26, 2019 ',
+    //   title: 'Press',
+    //   desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    // },
+    // {
+    //   img: './assets/images/partners/10.png',
+    //   name:  'Working Group Two',
+    //   // time: 'September 26, 2019 ',
+    //   title: 'Press',
+    //   desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    // },
+    {
+      image: './assets/images/partners/11.png',
+      name:  'JetStream Software',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      info: 'JetStream Software Secures Funding Led by Digital Alpha to Advance Disaster Recovery as a Service, Cloud Data Protection',
+
+      subtitle: "https://www.jetstreamsoft.com/2019/05/28/jetstream-software-secures-series-a-funding-led-by-digital-alpha-to-advance-draas-and-cloud-data-protection/",
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
+
+  ]
   constructor() { }
 
   ngOnInit() {
