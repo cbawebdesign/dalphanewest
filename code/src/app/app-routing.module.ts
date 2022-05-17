@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: 'landing-page1', loadChildren: './landing-page1/landing-page1.module#LandingPage1Module' },
+  { path: 'newsandmedia', loadChildren: './landing-page1/landing-page1.module#LandingPage1Module' },
   { path: 'landing-page2', loadChildren: './landing-page2/landing-page2.module#LandingPage2Module' },
   { path: 'landing-page3', loadChildren: './landing-page3/landing-page3.module#LandingPage3Module' },
   { path: 'strategy', loadChildren: './landing-page4/landing-page4.module#LandingPage4Module' },
@@ -33,13 +33,16 @@ const routes: Routes = [
 
 
 
-  { path: 'landing-page10', loadChildren: './landing-page10/landing-page10.module#LandingPage10Module' },
+  { path: 'disclaimers', loadChildren: './landing-page10/landing-page10.module#LandingPage10Module' },
   { path: 'landing-page11', loadChildren: './landing-page11/landing-page11.module#LandingPage11Module' },
   { path: 'our-cases', loadChildren: './our-cases/our-cases.module#OurCasesModule' },
   { path: 'blog', loadChildren: './blog/blog.module#BlogModule' },
   { path: 'about-us', loadChildren: './about/about.module#AboutModule' },
   { path: 'services', loadChildren: './service/service.module#ServiceModule' },
   { path: 'pages', loadChildren: './pages/pages.module#PagesModule' },
+    { path: 'pages', loadChildren: './pages/pages.module#PagesModule' },
+
+
   {path: '', loadChildren: './landing-page5/landing-page5.module#LandingPage5Module'}
 
 ];

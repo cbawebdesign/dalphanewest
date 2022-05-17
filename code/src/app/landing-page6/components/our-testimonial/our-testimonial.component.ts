@@ -35,12 +35,21 @@ export class OurTestimonialComponent implements OnInit {
     //   subtitle: '.',
     //   image: './assets/images/partners/2.png'
     // },
-    
+    {
+      image: './assets/images/partners/dtiq.png',
+      name:  'DTIQ',
+      // time: 'September 26, 2019 ',
+      title: 'PRESS',
+      info:'Digital Alpha leads $200M investment to acquire majority stake in DTiQ',
+      subtitle: "https://www.prnewswire.com/news-releases/digital-alpha-leads-200m-investment-to-acquire-majority-stake-in-dtiq-catalyzing-cisco-meraki-partnership-and-extending-dtiqs-market-leading-ai-cloud-and-automation-capabilities-301441587.html"
+
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+    },
     {
       image: './assets/images/partners/25.png',
       name:  'Unitas Global',
       // time: 'September 26, 2019 ',
-      title: 'Press',
+      title: 'PRESS',
       info:'Digital Alpha completes the asset acquisition of Unitas Global connectivity business',
       subtitle: "https://www.businesswire.com/news/home/20220418005166/en/Digital-Alpha-Completes-the-Asset-Acquisition-of-Unitas-Globals-Connectivity-Business-a-Next-Generation-Networking-Platform"
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
@@ -49,7 +58,7 @@ export class OurTestimonialComponent implements OnInit {
       image: './assets/images/partners/24.png',
       name:  'Welink',
       // time: 'September 26, 2019 ',
-      title: 'Press',
+      title: 'PRESS',
       info: 'WeLink secures 185 m Million funding from Digital Alpha to revolutionize the future Ultra High Speed Wireless Broadband',
       subtitle: 'https://www.businesswire.com/news/home/20210107005328/en/WeLink-Secures-185-Million-Funding-from-Digital-Alpha-to-Revolutionize-the-Future-of-Ultra-High-Speed-Wireless-Broadband'
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
@@ -150,7 +159,7 @@ export class OurTestimonialComponent implements OnInit {
     },
 
     {
-      image: './assets/images/partners/cloud.jpg',
+      image: './assets/images/partners/cloudian.png',
       name:  'Cloudian',
       // time: 'September 26, 2019 ',
       title: 'PRESS',
@@ -180,6 +189,7 @@ export class OurTestimonialComponent implements OnInit {
       // time: 'September 26, 2019 ',
       title: 'Press',
       info: 'Smart Cities Race Steps up a Gear with £10m Connexin Investment',
+      exit:'Exited 2019',
       subtitle: "https://venturebeat.com/2017/10/15/smart-cities-race-steps-up-a-gear-with-10m-connexin-investment/",
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
@@ -207,6 +217,44 @@ export class OurTestimonialComponent implements OnInit {
       subtitle: "https://www.jetstreamsoft.com/2019/05/28/jetstream-software-secures-series-a-funding-led-by-digital-alpha-to-advance-draas-and-cloud-data-protection/",
       // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
     },
+
+    {
+      image: './assets/images/partners/ukcloud.png',
+      name:  'UK Cloud',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      info: 'UKCloud secures investment from Digital Alpha',
+info2:'UKCloud awarded an expanded presence on G-Cloud 11 with new and improved multi-cloud services',
+      subtitle: "https://ukcloud.com/hub/news/ukcloud-secures-investment-from-digital-alpha-to-accelerate-the-expansion-of-its-high-security-multi-cloud-platform/",
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      subtitle2:"https://www.socpub.com/articles/ukcloud-awarded-expanded-presence-g-cloud-11-new-and-improved-multi-cloud-services-16584"
+    },
+    {
+      image: './assets/images/partners/quantela.jpg',
+      name:  'Quantela',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      info: 'Quantela receives $10m Equity Investment From Digital Alpha to Scale its Global Business',
+      info2:'World Economic Forum Awards Quantela Inc. the Coveted Technology Pioneer',
+
+      subtitle: "https://www.prnewswire.com/news-releases/quantela-a-smart-city-automation-and-ai-leader-announces-a-10m-equity-investment-from-digital-alpha-to-scale-its-global-business-828415024.html",
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      subtitle2:"https://www.prnewswire.com/in/news-releases/world-economic-forum-awards-quantela-inc-the-coveted-technology-pioneer--827359253.html"
+
+    },
+    {
+      image: './assets/images/partners/cimcon.jpg',
+      name:  'Cimcon Lighting',
+      // time: 'September 26, 2019 ',
+      title: 'Press',
+      exit:'Exited 2021',
+      info: 'Cimcon receives 33 million in funding to extend its reach to smart cities.',
+info2:'Platform provider aims to lower smart city set-up costs',
+      subtitle: "https://www.prnewswire.com/news-releases/cimcon-receives-33-million-in-funding-to-extend-the-reach-of-its-smart-cities-solutions-300914826.html",
+      // desc: 'They bring to you a host of beautifully created infographics that contain the latest digital marketing.',
+      subtitle2:"https://www.smartcitiesworld.net/news/news/platform-provider-aims-to-lower-smart-city-set-up-costs-4566"
+    },
+
 
   ]
   constructor() { }

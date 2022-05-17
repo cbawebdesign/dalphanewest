@@ -40,7 +40,7 @@ export class Specializing2Component implements OnInit {
     },
     {
       title: 'Rupert DeLaszlo',
-      subtitle:'Head of Business Development & Investor Relations',
+      subtitle:'Head of Investor Relations',
 
       desc: 'Mr de Laszlo has extensive experience raising capital for some of the world’s leading investment houses.  Prior to joining Digital Alpha he was the Founding partner of Prosperitas Capital, a Private Investment Office that also advised a number of top tier fund managers in a range of asset classes including Private Equity, Infrastructure and Credit in the United States, Europe, Middle East and South America.  Mr de Laszlo was previously The Head of the Middle East for bfinance, the asset advisory firm where he generated a number of $1B+ mandates for clients including Sovereign Wealth Funds, Endowments and Family Offices.  Mr de Laszlo started his finance career at Salford, an emerging markets Private Equity Fund focussed on acquiring controlling stakes.  Mr de Laszlo previously worked in the technology sector as Head of Europe for Sonic Foundry, a streaming media company.  Studied Business management and Economics At University of Tennessee.',
 

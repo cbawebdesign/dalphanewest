@@ -9,6 +9,7 @@ export class ContactUsComponent implements OnInit {
 
   logoImage = './assets/images/logo.png';
   contactInfo: any = {
+    contactNumber: '+0123456789',
     email: 'support@iqnonicthemes.com'
   };
   public navItems: any = topMenuBarItems;
@@ -19,15 +20,21 @@ export class ContactUsComponent implements OnInit {
   };
 
   List : any[] =[
- 
-    // {
-    //   title:"Australia Office",
-    //   address:""
-    // },
-    // {
-    //   title:"New zealand Office",
-    //   address:""
-    // }
+    {
+      title:"Karl Meyer",
+      address:"Head of Business Development and Portfolio Operations",
+      address1:" karl@dalphafund.com      "
+    },
+    {
+      title:"Rupert DeLaszlo",
+      address:"Head of Investor Relations      ",
+      address1:"rupert@dalphafund.com"
+    },
+    {
+      title:"Natalie Topham-Smith",
+      address:"Investor Relations",
+      address1:"natalie@dalphafund.com"
+    }
 
   ]
 

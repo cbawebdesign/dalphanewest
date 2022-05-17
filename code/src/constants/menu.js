@@ -82,6 +82,7 @@ const topMenuBarItems = [
     href: '/strategy',
    title: 'strategy'
   },
+  
   {
     href: '/portfolio',
     // href: '',
@@ -242,6 +243,28 @@ const topMenuBarItems = [
     //   }
     // ]
   },
+  {
+    href: '/newsandmedia',
+    title: 'News and Media',
+    // submenu: [
+    //   {
+    //     href: '/pages/our-team',
+    //     title: 'Our Team'
+    //   },
+    //   {
+    //     href: '/pages/client',
+    //     title: 'Clients'
+    //   },
+    //   {
+    //     href: '/pages/career',
+    //     title: 'Careers',
+    //   },
+    //   {
+    //     href: '/pages/contact-us',
+    //     title: 'Contact Us',
+    //   }
+    // ]
+  },
 
   {
     href: '/pages/contact-us',
@@ -260,7 +283,7 @@ const topMenuBarItems = [
 
   {
     // href: '/landing-page6',
-    href: '',
+    href: '/disclaimers',
 
     title: 'Disclaimers',
     // submenu : [
